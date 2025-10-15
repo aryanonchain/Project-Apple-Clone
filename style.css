@@ -73,8 +73,7 @@ h4 {
 }
 #cardsh4 {
   font-weight: 100;
-  font-size: 22
-  px;
+  font-size: 22px;
 }
 .iair video {
   height: 600px;
@@ -195,5 +194,11 @@ p{
 .p2-cards{
   display: flex;
   gap: 12px;
+}
+
+.dcards h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
