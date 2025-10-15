@@ -179,7 +179,7 @@ p{
   background-image: url(./Trade\ in.jpg);
   background-position: center;
   background-size: cover;
-  margin-left: 12px!;
+  margin-left: 12px;
 }
 
 .dcards{
@@ -190,6 +190,7 @@ p{
   background-image: url(./Dcard.jpg);
   background-position: center;
   background-size: cover;
+  
 }
 .p2-cards{
   display: flex;
