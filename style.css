@@ -1,0 +1,198 @@
+@font-face {
+  font-family: apple;
+  src: url(./sf-pro-display_regular.woff2);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: apple;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  height: 44px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818c0;
+  gap: 37px;
+  position: fixed;
+}
+
+.nav a {
+  font-weight: 100;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  z-index: 9;
+}
+.main {
+  height: 80%;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  color: #ffffff;
+  font-weight: 100;
+}
+video {
+  height: 96%;
+  margin-top: 1.6%;
+}
+
+.iair {
+  margin-top: 12px;
+  height: fit-content;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+h1 {
+  padding: 50px 0px 18px;
+  font-size: 50px;
+}
+h4 {
+  font-weight: 100;
+  font-size: 35px;
+}
+#cardsh {
+  padding: 50px 0px 8px;
+  font-size: 39px;
+  font-weight: 500;
+}
+#cardsh4 {
+  font-weight: 100;
+  font-size: 22
+  px;
+}
+.iair video {
+  height: 600px;
+  margin-top: 70px;
+  margin-left: 73px;
+}
+button {
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+#b1-air {
+  padding: 15px 30px;
+  font-weight: 300;
+  font-size: 15px;
+  background-color: #0071e3;
+  color: #f9fcfe;
+  border-radius: 40px;
+  border: none;
+  margin-right: 10px;
+}
+#b2-air {
+  padding: 15px 30px;
+  font-weight: 200;
+  background-color: transparent;
+  color: #0071e3;
+  border-radius: 40px;
+  border: 2px solid #0071e3;
+  font-size: 15px;
+}
+#Cardsb {
+  padding: 12px 30px;
+  font-weight: 300;
+  font-size: 12px;
+  background-color: #0071e3;
+  color: #f9fcfe;
+  border-radius: 40px;
+  border: none;
+  margin-right: 10px;
+}
+#Cardsb2{
+  padding: 12px 30px;
+  font-weight: 200;
+  background-color: transparent;
+  color: #0071e3;
+  border-radius: 40px;
+  border: 2px solid #0071e3;
+  font-size: 12px;
+}
+
+.ip17 {
+  margin-top: 10px;
+  height: 700px;
+  background-color: #f5f5f7;
+  text-align: center;
+  width: 100%;
+  background-image: url(./I\ phone\ 17.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.watch {
+  text-align: center;
+  margin-top: 12px;
+  height: 600px;
+  width: 49%;
+  background-image: url(./promo_apple_watch_series_11__b63hxviqvonm_large.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 12px;
+}
+
+.Airpods{
+  text-align: center;
+  margin-top: 12px;
+  height: 600px;
+  width: 49%;
+  background-image: url(./promo_airpodspro_3__f6xmza7bglei_large.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.p-cards{
+  display: flex;
+  gap: 12px;
+}
+p{
+  color: black;
+}
+
+.tradein h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.tradein{
+  text-align: center;
+  margin-top: 12px;
+  height: 600px;
+  width: 49%;
+  background-image: url(./Trade\ in.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.dcards{
+   text-align: center;
+  margin-top: 12px;
+  height: 600px;
+  width: 49%;
+  background-image: url(./Dcard.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.p2-cards{
+  display: flex;
+  gap: 12px;
+}
+
